@@ -15,6 +15,9 @@
 
 项目里的库文件ASIHTTPRequest.framework也是使用[iOS Universal Framework](https://github.com/kstenerud/iOS-Universal-Framework)编译ASIHTTPRequest项目得来
 
+#demo效果图
+![deme effect](https://github.com/grenlight/OWWebImage/blob/master/demo.png?raw=true)
+
 #代码说明
 初始化OWImageManager
 	
