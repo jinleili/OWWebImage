@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2AA29C183EECCA000D8652 /* ASIHTTPRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2AA29B183EECCA000D8652 /* ASIHTTPRequest.framework */; };
+		3C2AA2A2183EF7F5000D8652 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA29F183EF7F5000D8652 /* HTMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C2AA2A3183EF7F5000D8652 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA2A1183EF7F5000D8652 /* HTMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C2AA2A5183EF81A000D8652 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2AA2A4183EF81A000D8652 /* libxml2.2.dylib */; };
+		3C2AA2AA183F0BC0000D8652 /* OWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA2A8183F0BC0000D8652 /* OWCollectionViewCell.m */; };
+		3C2AA2AB183F0BC0000D8652 /* OWCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2A9183F0BC0000D8652 /* OWCollectionViewCell.xib */; };
+		3C2AA2AE183F24C5000D8652 /* knewone.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2AD183F24C5000D8652 /* knewone.html */; };
+		3C2AA2B2183F41A1000D8652 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA2B0183F41A1000D8652 /* SecondViewController.m */; };
+		3C2AA2B3183F41A1000D8652 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2B1183F41A1000D8652 /* SecondViewController.xib */; };
+		3C2AA2B5183F42F9000D8652 /* knewone2.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2B4183F42F9000D8652 /* knewone2.html */; };
+		3C2AA2BD183F4A9C000D8652 /* OWWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2AA2B7183F4A9C000D8652 /* OWWebImage.framework */; };
+		3C2AA2BE183F4A9C000D8652 /* OWWebImage.mom in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2BA183F4A9C000D8652 /* OWWebImage.mom */; };
+		3C2AA2BF183F4A9C000D8652 /* OWWebImage.omo in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2BB183F4A9C000D8652 /* OWWebImage.omo */; };
+		3C2AA2C0183F4A9C000D8652 /* VersionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2BC183F4A9C000D8652 /* VersionInfo.plist */; };
+		3C82C1401835C486006C4689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C13F1835C486006C4689 /* Foundation.framework */; };
+		3C82C1421835C486006C4689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1411835C486006C4689 /* CoreGraphics.framework */; };
+		3C82C1441835C486006C4689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1431835C486006C4689 /* UIKit.framework */; };
+		3C82C14A1835C486006C4689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C82C1481835C486006C4689 /* InfoPlist.strings */; };
+		3C82C14C1835C486006C4689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C82C14B1835C486006C4689 /* main.m */; };
+		3C82C1501835C486006C4689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C82C14F1835C486006C4689 /* AppDelegate.m */; };
+		3C82C1561835C486006C4689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C82C1551835C486006C4689 /* ViewController.m */; };
+		3C82C1581835C486006C4689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C82C1571835C486006C4689 /* Images.xcassets */; };
+		3C82C1851835CDDB006C4689 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C82C1841835CDDB006C4689 /* ViewController.xib */; };
+		3C82C1921835CF7E006C4689 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1911835CF7E006C4689 /* CFNetwork.framework */; };
+		3C82C1941835CF9F006C4689 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1931835CF9F006C4689 /* CoreData.framework */; };
+		3C82C1961835CFC4006C4689 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1951835CFC4006C4689 /* SystemConfiguration.framework */; };
+		3C82C19A1835D036006C4689 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1991835D036006C4689 /* MobileCoreServices.framework */; };
+		3C82C1A21835D0F4006C4689 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C82C1A11835D0F4006C4689 /* libz.1.2.5.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C2AA29B183EECCA000D8652 /* ASIHTTPRequest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASIHTTPRequest.framework; path = ../ASIHTTPRequest.framework; sourceTree = "<group>"; };
+		3C2AA29E183EF7F5000D8652 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		3C2AA29F183EF7F5000D8652 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		3C2AA2A0183EF7F5000D8652 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		3C2AA2A1183EF7F5000D8652 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		3C2AA2A4183EF81A000D8652 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		3C2AA2A7183F0BC0000D8652 /* OWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWCollectionViewCell.h; sourceTree = "<group>"; };
+		3C2AA2A8183F0BC0000D8652 /* OWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWCollectionViewCell.m; sourceTree = "<group>"; };
+		3C2AA2A9183F0BC0000D8652 /* OWCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OWCollectionViewCell.xib; sourceTree = "<group>"; };
+		3C2AA2AD183F24C5000D8652 /* knewone.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = knewone.html; sourceTree = "<group>"; };
+		3C2AA2AF183F41A1000D8652 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3C2AA2B0183F41A1000D8652 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3C2AA2B1183F41A1000D8652 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		3C2AA2B4183F42F9000D8652 /* knewone2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = knewone2.html; sourceTree = "<group>"; };
+		3C2AA2B7183F4A9C000D8652 /* OWWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OWWebImage.framework; sourceTree = "<group>"; };
+		3C2AA2BA183F4A9C000D8652 /* OWWebImage.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = OWWebImage.mom; sourceTree = "<group>"; };
+		3C2AA2BB183F4A9C000D8652 /* OWWebImage.omo */ = {isa = PBXFileReference; lastKnownFileType = file; path = OWWebImage.omo; sourceTree = "<group>"; };
+		3C2AA2BC183F4A9C000D8652 /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
+		3C82C13C1835C486006C4689 /* OWWebImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWWebImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C82C13F1835C486006C4689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C82C1411835C486006C4689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C82C1431835C486006C4689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C82C1471835C486006C4689 /* OWWebImageDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OWWebImageDemo-Info.plist"; sourceTree = "<group>"; };
+		3C82C1491835C486006C4689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C82C14B1835C486006C4689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C82C14D1835C486006C4689 /* OWWebImageDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OWWebImageDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3C82C14E1835C486006C4689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C82C14F1835C486006C4689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C82C1541835C486006C4689 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C82C1551835C486006C4689 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C82C1571835C486006C4689 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C82C15E1835C486006C4689 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C82C1841835CDDB006C4689 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3C82C1911835CF7E006C4689 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3C82C1931835CF9F006C4689 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C82C1951835CFC4006C4689 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C82C1971835D00C006C4689 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C82C1991835D036006C4689 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3C82C19B1835D052006C4689 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C82C19D1835D09B006C4689 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3C82C19F1835D0DA006C4689 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3C82C1A11835D0F4006C4689 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C82C1391835C486006C4689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2AA2A5183EF81A000D8652 /* libxml2.2.dylib in Frameworks */,
+				3C82C1A21835D0F4006C4689 /* libz.1.2.5.dylib in Frameworks */,
+				3C82C19A1835D036006C4689 /* MobileCoreServices.framework in Frameworks */,
+				3C82C1961835CFC4006C4689 /* SystemConfiguration.framework in Frameworks */,
+				3C82C1941835CF9F006C4689 /* CoreData.framework in Frameworks */,
+				3C2AA29C183EECCA000D8652 /* ASIHTTPRequest.framework in Frameworks */,
+				3C82C1921835CF7E006C4689 /* CFNetwork.framework in Frameworks */,
+				3C82C1421835C486006C4689 /* CoreGraphics.framework in Frameworks */,
+				3C82C1441835C486006C4689 /* UIKit.framework in Frameworks */,
+				3C2AA2BD183F4A9C000D8652 /* OWWebImage.framework in Frameworks */,
+				3C82C1401835C486006C4689 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2AA29D183EF7E6000D8652 /* html parser */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA29E183EF7F5000D8652 /* HTMLNode.h */,
+				3C2AA29F183EF7F5000D8652 /* HTMLNode.m */,
+				3C2AA2A0183EF7F5000D8652 /* HTMLParser.h */,
+				3C2AA2A1183EF7F5000D8652 /* HTMLParser.m */,
+			);
+			name = "html parser";
+			sourceTree = "<group>";
+		};
+		3C2AA2B6183F4A9C000D8652 /* OWWebImage.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA2B7183F4A9C000D8652 /* OWWebImage.framework */,
+				3C2AA2B8183F4A9C000D8652 /* Resources */,
+			);
+			path = OWWebImage.embeddedframework;
+			sourceTree = "<group>";
+		};
+		3C2AA2B8183F4A9C000D8652 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA2B9183F4A9C000D8652 /* OWWebImage.momd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C2AA2B9183F4A9C000D8652 /* OWWebImage.momd */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA2BA183F4A9C000D8652 /* OWWebImage.mom */,
+				3C2AA2BB183F4A9C000D8652 /* OWWebImage.omo */,
+				3C2AA2BC183F4A9C000D8652 /* VersionInfo.plist */,
+			);
+			path = OWWebImage.momd;
+			sourceTree = "<group>";
+		};
+		3C82C1331835C486006C4689 = {
+			isa = PBXGroup;
+			children = (
+				3C82C1451835C486006C4689 /* OWWebImageDemo */,
+				3C82C13E1835C486006C4689 /* Frameworks */,
+				3C82C13D1835C486006C4689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C82C13D1835C486006C4689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C82C13C1835C486006C4689 /* OWWebImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C82C13E1835C486006C4689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA2B6183F4A9C000D8652 /* OWWebImage.embeddedframework */,
+				3C2AA2A4183EF81A000D8652 /* libxml2.2.dylib */,
+				3C2AA29B183EECCA000D8652 /* ASIHTTPRequest.framework */,
+				3C82C1A11835D0F4006C4689 /* libz.1.2.5.dylib */,
+				3C82C19F1835D0DA006C4689 /* AVFoundation.framework */,
+				3C82C19D1835D09B006C4689 /* CoreLocation.framework */,
+				3C82C19B1835D052006C4689 /* Security.framework */,
+				3C82C1991835D036006C4689 /* MobileCoreServices.framework */,
+				3C82C1971835D00C006C4689 /* QuartzCore.framework */,
+				3C82C1951835CFC4006C4689 /* SystemConfiguration.framework */,
+				3C82C1931835CF9F006C4689 /* CoreData.framework */,
+				3C82C1911835CF7E006C4689 /* CFNetwork.framework */,
+				3C82C13F1835C486006C4689 /* Foundation.framework */,
+				3C82C1411835C486006C4689 /* CoreGraphics.framework */,
+				3C82C1431835C486006C4689 /* UIKit.framework */,
+				3C82C15E1835C486006C4689 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C82C1451835C486006C4689 /* OWWebImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA29D183EF7E6000D8652 /* html parser */,
+				3C82C14E1835C486006C4689 /* AppDelegate.h */,
+				3C82C14F1835C486006C4689 /* AppDelegate.m */,
+				3C82C1541835C486006C4689 /* ViewController.h */,
+				3C82C1551835C486006C4689 /* ViewController.m */,
+				3C82C1841835CDDB006C4689 /* ViewController.xib */,
+				3C2AA2A7183F0BC0000D8652 /* OWCollectionViewCell.h */,
+				3C2AA2A8183F0BC0000D8652 /* OWCollectionViewCell.m */,
+				3C2AA2A9183F0BC0000D8652 /* OWCollectionViewCell.xib */,
+				3C2AA2AF183F41A1000D8652 /* SecondViewController.h */,
+				3C2AA2B0183F41A1000D8652 /* SecondViewController.m */,
+				3C2AA2B1183F41A1000D8652 /* SecondViewController.xib */,
+				3C2AA2AD183F24C5000D8652 /* knewone.html */,
+				3C2AA2B4183F42F9000D8652 /* knewone2.html */,
+				3C82C1571835C486006C4689 /* Images.xcassets */,
+				3C82C1461835C486006C4689 /* Supporting Files */,
+			);
+			path = OWWebImageDemo;
+			sourceTree = "<group>";
+		};
+		3C82C1461835C486006C4689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C82C1471835C486006C4689 /* OWWebImageDemo-Info.plist */,
+				3C82C1481835C486006C4689 /* InfoPlist.strings */,
+				3C82C14B1835C486006C4689 /* main.m */,
+				3C82C14D1835C486006C4689 /* OWWebImageDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C82C13B1835C486006C4689 /* OWWebImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C82C16E1835C486006C4689 /* Build configuration list for PBXNativeTarget "OWWebImageDemo" */;
+			buildPhases = (
+				3C82C1381835C486006C4689 /* Sources */,
+				3C82C1391835C486006C4689 /* Frameworks */,
+				3C82C13A1835C486006C4689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OWWebImageDemo;
+			productName = OWWebImageDemo;
+			productReference = 3C82C13C1835C486006C4689 /* OWWebImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C82C1341835C486006C4689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = grenlight;
+			};
+			buildConfigurationList = 3C82C1371835C486006C4689 /* Build configuration list for PBXProject "OWWebImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C82C1331835C486006C4689;
+			productRefGroup = 3C82C13D1835C486006C4689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C82C13B1835C486006C4689 /* OWWebImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C82C13A1835C486006C4689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2AA2AB183F0BC0000D8652 /* OWCollectionViewCell.xib in Resources */,
+				3C2AA2C0183F4A9C000D8652 /* VersionInfo.plist in Resources */,
+				3C82C1581835C486006C4689 /* Images.xcassets in Resources */,
+				3C2AA2BF183F4A9C000D8652 /* OWWebImage.omo in Resources */,
+				3C82C14A1835C486006C4689 /* InfoPlist.strings in Resources */,
+				3C2AA2B5183F42F9000D8652 /* knewone2.html in Resources */,
+				3C2AA2BE183F4A9C000D8652 /* OWWebImage.mom in Resources */,
+				3C2AA2B3183F41A1000D8652 /* SecondViewController.xib in Resources */,
+				3C82C1851835CDDB006C4689 /* ViewController.xib in Resources */,
+				3C2AA2AE183F24C5000D8652 /* knewone.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C82C1381835C486006C4689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2AA2A2183EF7F5000D8652 /* HTMLNode.m in Sources */,
+				3C82C1561835C486006C4689 /* ViewController.m in Sources */,
+				3C2AA2AA183F0BC0000D8652 /* OWCollectionViewCell.m in Sources */,
+				3C2AA2B2183F41A1000D8652 /* SecondViewController.m in Sources */,
+				3C82C1501835C486006C4689 /* AppDelegate.m in Sources */,
+				3C82C14C1835C486006C4689 /* main.m in Sources */,
+				3C2AA2A3183EF7F5000D8652 /* HTMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C82C1481835C486006C4689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C82C1491835C486006C4689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C82C16C1835C486006C4689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C82C16D1835C486006C4689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C82C16F1835C486006C4689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/OWWebImage.embeddedframework",
+					../,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OWWebImageDemo/OWWebImageDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "OWWebImageDemo/OWWebImageDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C82C1701835C486006C4689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/OWWebImage.embeddedframework",
+					../,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OWWebImageDemo/OWWebImageDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "OWWebImageDemo/OWWebImageDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C82C1371835C486006C4689 /* Build configuration list for PBXProject "OWWebImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C82C16C1835C486006C4689 /* Debug */,
+				3C82C16D1835C486006C4689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C82C16E1835C486006C4689 /* Build configuration list for PBXNativeTarget "OWWebImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C82C16F1835C486006C4689 /* Debug */,
+				3C82C1701835C486006C4689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C82C1341835C486006C4689 /* Project object */;
+}
