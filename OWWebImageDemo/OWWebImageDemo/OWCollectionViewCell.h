@@ -2,8 +2,8 @@
 //  ApplicationCollectionCell.h
 //  LongYuanDigest
 //
-//  Created by 龙源 on 13-10-18.
-//  Copyright (c) 2013年 longyuan. All rights reserved.
+//  Created by grenlight on 13-11-15.
+//  Copyright (c) 2013年 OOWWWW. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

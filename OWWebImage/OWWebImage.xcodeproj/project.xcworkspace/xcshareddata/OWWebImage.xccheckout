@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>65BC6DB2-5977-4239-9781-63E3B2E3C813</string>
+	<string>B304DB8E-0CBB-4D43-97B0-6E1FECEF6BF5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>OWWebImage</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>4A5CF5F0-5C35-4123-BE07-2FD837C5151C</key>
+		<string>https://github.com/grenlight/OWWebImage</string>
 		<key>9198FECA-B5C9-4C9C-A235-79071408159F</key>
 		<string>https://github.com/grenlight/iOSProjects</string>
 	</dict>
@@ -17,11 +19,13 @@
 	<string>OWWebImage/OWWebImage/OWWebImage.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>4A5CF5F0-5C35-4123-BE07-2FD837C5151C</key>
+		<string>../../..</string>
 		<key>9198FECA-B5C9-4C9C-A235-79071408159F</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/grenlight/iOSProjects</string>
+	<string>https://github.com/grenlight/OWWebImage</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -35,6 +39,14 @@
 			<string>9198FECA-B5C9-4C9C-A235-79071408159F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOSProjects</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A5CF5F0-5C35-4123-BE07-2FD837C5151C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OWWebImage</string>
 		</dict>
 	</array>
 </dict>
